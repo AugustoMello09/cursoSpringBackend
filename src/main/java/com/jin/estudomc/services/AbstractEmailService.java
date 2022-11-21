@@ -17,16 +17,17 @@ import com.jin.estudomc.domain.Pedido;
 
 public abstract class  AbstractEmailService implements EmailService {
 	
-	@Autowired
-	private JavaMailSender javaMailSender;
-	
-	
-	@Autowired
-	private TemplateEngine templateEngine;
+
 	
 	@Value("${default.sender}")
 	private String sender;
+	
+	@Autowired
+	private TemplateEngine templateEngine;
 
+	@Autowired
+	private JavaMailSender javaMailSender;
+	
 	@Override
 	public void sendOrderConfirmationEmail(Pedido obj) {
 		SimpleMailMessage sm = prepareSimpleMailMessageFromPedido(obj);
