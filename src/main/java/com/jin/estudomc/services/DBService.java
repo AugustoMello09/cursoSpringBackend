@@ -148,6 +148,7 @@ public class DBService {
 			
 			
 			
+			
 			Endereco e1 = new Endereco(null, "Rua Flores", "360", "Apto 303", "Jardim", "38220834", cli1, c1);
 			Endereco e2 = new Endereco(null, "Avenida Matos", "105", "Sala 800", "Centro", "38777012", cli1, c2);
 			Endereco e3 = new Endereco(null, "Avenida Floriano", "2106", null, "Centro", "78977012", cli2, c2);
