@@ -43,5 +43,10 @@
     "name": "img.prefix.client.profile",
     "type": "java.lang.String",
     "description": "A description for 'img.prefix.client.profile'"
+  },
+  {
+    "name": "img.profile.size",
+    "type": "java.lang.String",
+    "description": "A description for 'img.profile.size'"
   }
 ]}
